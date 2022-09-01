@@ -1,0 +1,25 @@
+{
+  "name": "react-class-component-face-recognition-back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christy313/react-class-component-face-recognition-back-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christy313/react-class-component-face-recognition-back-end/issues"
+  },
+  "homepage": "https://github.com/christy313/react-class-component-face-recognition-back-end#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
