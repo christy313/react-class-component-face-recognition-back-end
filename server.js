@@ -12,11 +12,8 @@ const { handleImage, handleApiCall } = require("./controllers/image");
 const db = knex({
   client: "pg",
   connection: {
-    host: "postgresql-spherical-42724",
-    port: 5432,
-    user: "christy",
-    password: "",
-    database: "smart-brain",
+    host: process.env.DATABASE_URL,
+    ssl: true,
   },
 });
 
