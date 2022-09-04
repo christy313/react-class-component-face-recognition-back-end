@@ -9,6 +9,8 @@ const { handleSignIn } = require("./controllers/signin");
 const { handleProfile } = require("./controllers/profile");
 const { handleImage, handleApiCall } = require("./controllers/image");
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
+
 const db = knex({
   client: "pg",
   connection: {
